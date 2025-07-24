@@ -40,6 +40,7 @@ void ie(Node*& head, int val) {
     temp->next = n;
 }
 
+
 void im(Node*& head, int val, int k) {
     if (k == 1) {
         ib(head, val);
